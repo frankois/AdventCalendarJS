@@ -24,11 +24,13 @@ Le champs *data_folder* est le dossier ou sont stockés vos données pour chaque
 
 Pour melanger les jours ouvrez le fichier **index.html**, et interchanger la position des lignes de la balise *<div class="day-container">* :
 
-> ...
-> <div class="day">3</div>
-> <div class="day">20</div>
-> <div class="day">12</div>
-> ...
+```html
+...
+<div class="day">3</div>
+<div class="day">20</div>
+<div class="day">12</div>
+ ...
+ ```
 
 Pour ajouter des jours ajouter une de ces ligne avec le numéro du jour voulu.
 
